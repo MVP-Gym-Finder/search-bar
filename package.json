@@ -1,0 +1,44 @@
+{
+  "name": "search-bar",
+  "version": "1.0.0",
+  "description": "MVP - search bar",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "seed": "node ./database/resources/seed.js",
+    "build": "webpack -d --w",
+    "start": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVP-Gym-Finder/search-bar.git"
+  },
+  "author": "Adam Gienapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVP-Gym-Finder/search-bar/issues"
+  },
+  "homepage": "https://github.com/MVP-Gym-Finder/search-bar#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^3.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "reactdom": "^2.0.0",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}

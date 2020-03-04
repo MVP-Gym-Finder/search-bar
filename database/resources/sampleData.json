@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Gold's Gym",
+    "rating": 3.4,
+    "address": "6000 Sepulveda Blvd #1200",
+    "city": "Culver City",
+    "zipCode": 90230
+  },
+  {
+    "name": "SixPax Gym",
+    "rating": 5.0,
+    "address": "4301 Sepulveda Blvd",
+    "city": "Culver City",
+    "zipCode": 90230
+  },
+  {
+    "name": "LA Fitness",
+    "rating": 3.5,
+    "address": "3827 Overland Ave",
+    "city": "Culver City",
+    "zipCode": 90232
+  },
+  {
+    "name": "Anytime Fitness",
+    "rating": 4.1,
+    "address": "4130 Sepulveda Blvd",
+    "city": "Culver City",
+    "zipCode": 90230
+  },
+  {
+    "name": "9 Round Fitness",
+    "rating": 5.0,
+    "address": "11140 Washington Blvd",
+    "city": "Culver City",
+    "zipCode": 90232
+  }
+]
