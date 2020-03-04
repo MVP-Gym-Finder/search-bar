@@ -46,12 +46,12 @@ export default class SearchBar extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Find gyms near you</h1>
-        <div>
-          <label>Enter your zip code:
-            <input type="search" id="search-bar" name="zip" onChange={this.changeHandler}></input>
-          </label>
+      <div className="search-bar">
+        <div className="search-prompt-container">
+          <h1 className="search-title">Find gyms near you</h1>
+          <label className="search-prompt">Enter your zip code:</label>
+          <br></br>
+          <input type="search" id="search-bar" name="zip" onChange={this.changeHandler}></input>
           <button onClick={this.submitHandler}><span className="glyphicon glyphicon-search"></span></button>
         </div>
         <div>
