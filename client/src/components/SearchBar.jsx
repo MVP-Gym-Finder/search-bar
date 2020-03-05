@@ -47,6 +47,7 @@ export default class SearchBar extends React.Component {
   render() {
     return (
       <div className="search-bar">
+        <div className="search-photo-bar" />
         <div className="search-prompt-container">
           <h1 className="search-title">Find gyms near you</h1>
           <label className="search-prompt">Enter your zip code:</label>
