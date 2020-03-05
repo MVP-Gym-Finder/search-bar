@@ -54,14 +54,14 @@ export default class SearchBar extends React.Component {
           <input type="search" id="search-bar" name="zip" onChange={this.changeHandler}></input>
           <button onClick={this.submitHandler}><span className="glyphicon glyphicon-search"></span></button>
         </div>
-        <div>
+        <div className="search-results-container">
           {this.state.gyms.map((item, index) => {
             return <SearchResultEntry gym={item} key={index} />
           })}
           { this.state.userHasSearched ? 
             this.state.displayCount > this.state.gyms.length ? 
-            <div> <span>No more results</span> </div> :
-            <div> <button onClick={this.loadMoreHandler}>More Results</button> </div> : null }
+            <div className="no-more-results"> <span>No more results</span> </div> :
+            <div className="load-more-btn"> <button onClick={this.loadMoreHandler}>More Results</button> </div> : null }
         </div>
       </div>
     );
