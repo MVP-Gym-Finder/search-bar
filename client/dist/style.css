@@ -1,0 +1,130 @@
+/*
+  =====================================
+  Global Settings
+  =====================================
+*/
+
+  .search-bar {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: border-box;
+  }
+
+  .search-bar h1,
+  .search-bar h2,
+  .search-bar h3,
+  .search-bar h4,
+  .search-bar h5,
+  .search-bar h6 {
+    font-weight: 500;
+  }
+
+
+/*
+  =====================================
+  Layout/Spacing
+  =====================================
+*/
+
+  .search-photo-bar {
+    height: 150px;
+    width: 100%;
+    background-image: url("./amirn-32_gallery.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .search-prompt-container {
+    width: 375px;
+    margin: 0 auto 15px auto;
+    text-align: left;
+  }
+
+  .search-title {
+    padding-bottom: 10px;
+  }
+
+  .search-prompt {
+    font-weight: 400;
+  }
+
+  #search-bar {
+    width: 250px;
+  }
+
+  .search-results-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .no-more-results {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .load-more-btn {
+
+  }
+
+
+/*
+  =====================================
+  Gym List Entry
+  =====================================
+*/
+
+.search-result-container {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px lightgray;
+}
+
+.search-result-left {
+  width: 70%;
+  padding-left: 25px;
+}
+
+.search-result-right {
+  width: 30%;
+}
+
+.search-result-rating {
+  display: inline-block;
+  height: 60px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.search-result-stars-container {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+  font-size: 20px;
+  color: rgb(244, 218, 28);
+}
+
+.search-result-stars-display::before {
+  content: "☆☆☆☆☆";
+  display: block;
+}
+
+.search-result-stars-display span::before {
+  content: "★★★★★";
+  display: block;
+}
+
+.search-result-stars-display span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
